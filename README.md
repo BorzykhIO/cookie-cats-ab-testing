@@ -5,7 +5,6 @@ Players progress through the levels of the game, they will occasionally encounte
 
 But where should the gates be placed? Initially the first gate was placed at level 30, but in this notebook we're going to analyze an AB-test where we moved the first gate in Cookie Cats from level 30 to level 40. In particular, we will look at the impact on player retention.
 <p><img src="https://assets.datacamp.com/production/project_184/img/cc_gates.png" alt></p>  
-
 <p>The data we have is from 90,189 players that installed the game while the AB-test was running. The variables are:</p>
 <ul>
 <li><code>userid</code> - a unique number that identifies each player.</li>
@@ -14,4 +13,5 @@ But where should the gates be placed? Initially the first gate was placed at lev
 <li><code>retention_1</code> - did the player come back and play <strong>1 day</strong> after installing?</li>
 <li><code>retention_7</code> - did the player come back and play <strong>7 days</strong> after installing?</li>
 </ul>
-<p>When a player installed the game, he or she was randomly assigned to either <code>gate_30</code> or <code>gate_40</code>. As a sanity check, let's see if there are roughly the same number of players in each AB group. </p>
+<p>When a player installed the game, he or she was randomly assigned to either <code>gate_30</code> or <code>gate_40</code>. As a sanity check, let's see if there are roughly the same number of players in each AB group. </p>  
+### You can find the A/B testing results in the jupyter notebook file!
