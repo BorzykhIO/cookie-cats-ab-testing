@@ -14,4 +14,4 @@ But where should the gates be placed? Initially the first gate was placed at lev
 <li><code>retention_7</code> - did the player come back and play <strong>7 days</strong> after installing?</li>
 </ul>
 <p>When a player installed the game, he or she was randomly assigned to either <code>gate_30</code> or <code>gate_40</code>. As a sanity check, let's see if there are roughly the same number of players in each AB group. </p>  
-# You can find the A/B testing results in the jupyter notebook file!
+You can find the A/B testing results in the jupyter notebook file!
